@@ -182,40 +182,213 @@ body {
   
   /********** Large devices only **********/
   @media (min-width: 1200px) {
-    .container .jumbotron {
-      background: url('../images/jumbotron_1200.jpg') no-repeat;
-      height: 675px;
-    }
-    
+    #box1 {
+        float: left;
+        background-color: #999999; 
+        padding: 10px,10px,10px,10px;
+        border: 0px solid black;
+        margin-top: 40px;
+        margin-left: 150px;
+        margin-bottom: 40px;
+        width: 300px;
+       }
+     
+       #box5 {
+         float: left;
+         background-color: #999999; 
+         padding: 10px,10px,10px,10px;
+         border: 0px solid black;
+         margin-top: 40px;
+         margin-left: 150px;
+         margin-bottom: 40px;
+         width: 300px;
+        }
+     
+        #box6 {
+         float: left;
+         background-color: #999999; 
+         padding: 10px,10px,10px,10px;
+         border: 0px solid black;
+         margin-top: 40px;
+         margin-left: 150px;
+         margin-bottom: 40px;
+         width: 300px;
+        }
+      
+      
+       #box1 #box2{
+         position: relative;
+         width: 30%;
+         border: 0px solid black;
+         margin-left: 100px;
+         margin-bottom:auto;  
+         text-align: center;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+     
+       #box5 #box3{
+         position: relative;
+         width: 30%;
+         border: 0px solid black;
+         margin-left: 100px;
+         margin-bottom:auto;  
+         text-align: center;
+         color: white;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+     
+       #box6 #box4{
+         position: relative;
+         width: 30%;
+         border: 0px solid black;
+         margin-left: 100px;
+         margin-bottom:auto;  
+       
+         text-align: center;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
   }
   
   /********** Medium devices only **********/
   @media (min-width: 992px) and (max-width: 1199px) {
-    /* Header */
-    #logo-img {
-      background: url('../images/restaurant-logo_medium.png') no-repeat;
-      width: 100px;
-      height: 100px;
-      margin: 5px 5px 5px 0;
-    }
-    /* End Header */
-  
-    /* Home Page */
-    .container .jumbotron {
-      background: url('../images/jumbotron_992.jpg') no-repeat;
-      height: 558px;
-    }
-    /* End Home Page */
+    #box1 {
+        float: left;
+        background-color: #999999; 
+        padding: 10px,10px,10px,10px;
+        border: 0px solid black;
+        margin-top: 40px;
+        margin-left: 150px;
+        margin-bottom: 40px;
+        width: 300px;
+       }
+     
+       #box5 {
+         float: left;
+         background-color: #999999; 
+         padding: 10px,10px,10px,10px;
+         border: 0px solid black;
+         margin-top: 40px;
+         margin-left: 150px;
+         margin-bottom: 40px;
+         width: 300px;
+        }
+     
+        #box6 {
+         float: left;
+         background-color: #999999; 
+         padding: 10px,10px,10px,10px;
+         border: 0px solid black;
+         margin-top: 40px;
+         margin-left: 150px;
+         margin-bottom: 40px;
+         width: 750px;
+        }
+      
+      
+       #box1 #box2{
+         position: relative;
+         width: 30%;
+         border: 0px solid black;
+         margin-left: 100px;
+         margin-bottom:auto;  
+         text-align: center;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+     
+       #box5 #box3{
+         position: relative;
+         width: 30%;
+         border: 0px solid black;
+         margin-left: 100px;
+         margin-bottom:auto;  
+         text-align: center;
+         color: white;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+     
+       #box6 #box4{
+         position: relative;
+         width: 30%;
+         border: 0px solid black;
+         margin-left: 270px;
+         margin-bottom:auto;  
+         text-align: center;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
   }
   
   /********** Small devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
-    /* Home Page */
-    .container .jumbotron {
-      background: url('../images/jumbotron_768.jpg') no-repeat;
-      height: 432px;
-    }
-    /* End Home Page */
+    #box1 {
+        float: left;
+        background-color: #999999; 
+        padding: 10px,10px,10px,10px;
+        border: 0px solid black;
+        margin-top: 40px;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-bottom: 40px;
+        width:auto;
+       }
+     
+       #box5 {
+         float: left;
+         background-color: #999999; 
+         padding: 10px,10px,10px,10px;
+         border: 0px solid black;
+         margin-top: 40px;
+         margin-left: 150px;
+         margin-right: 150px;
+         margin-bottom: 40px;
+         width:auto;
+        }
+     
+        #box6 {
+         float: left;
+         background-color: #999999; 
+         padding: 10px,10px,10px,10px;
+         border: 0px solid black;
+         margin-top: 40px;
+         margin-left: 150px;
+         margin-right: 150px;
+         margin-bottom: 40px;
+         width:auto;
+        }
+      
+      
+       #box1 #box2{
+         position: relative;
+         width: 30%;
+         border: 0px solid black;
+         margin-left: auto;
+         padding-right:55%;
+         margin-bottom:auto;  
+         text-align: center;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+     
+       #box5 #box3{
+         position: relative;
+         width: 30%;
+         border: 0px solid black;
+         margin-left: auto;
+         padding-right:55%;
+         margin-bottom:auto;  
+         text-align: center;
+         color: white;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+     
+       #box6 #box4{
+         position: relative;
+         width: 30%;
+         border: 0px solid black;
+         margin-left: auto;
+         padding-right:55%;
+         margin-bottom:auto;  
+         text-align: center;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
   }
   
   /********** Extra small devices only **********/
@@ -254,12 +427,7 @@ body {
       background-color: #f6b319;
       color: #951c49;
     }
-    #xs-deliver {
-      margin-top: 5px;
-      font-size: .7em;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-    }
+   
     /* End Header */
   
     
@@ -282,6 +450,70 @@ body {
     .menu-item-description {
       text-align: center;;
     }
+    #box1 {
+        float: left;
+        background-color: #999999; 
+        padding: 10px,10px,10px,10px;
+        border: 0px solid black;
+        margin-top: 40px;
+        margin-left: 70px;
+        margin-bottom: 40px;
+        width: 300px;
+       }
+     
+       #box5 {
+         float: left;
+         background-color: #999999; 
+         padding: 10px,10px,10px,10px;
+         border: 0px solid black;
+         margin-top: 40px;
+         margin-left: 70px;
+         margin-bottom: 40px;
+         width: 300px;
+        }
+     
+        #box6 {
+         float: left;
+         background-color: #999999; 
+         padding: 10px,10px,10px,10px;
+         border: 0px solid black;
+         margin-top: 40px;
+         margin-left: 70px;
+         margin-bottom: 40px;
+         width: 300px;
+        }
+      
+      
+       #box1 #box2{
+         position: relative;
+         width: 30%;
+         border: 0px solid black;
+         margin-left: 100px;
+         margin-bottom:auto;  
+         text-align: center;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+     
+       #box5 #box3{
+         position: relative;
+         width: 30%;
+         border: 0px solid black;
+         margin-left: 100px;
+         margin-bottom:auto;  
+         text-align: center;
+         color: white;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+     
+       #box6 #box4{
+         position: relative;
+         width: 30%;
+         border: 0px solid black;
+         margin-left: 100px;
+         margin-bottom:auto;  
+         text-align: center;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
   }
   
   
@@ -317,46 +549,4 @@ body {
        }
        
     
-      #box1 {
-       float: left;
-       background-color: #999999; 
-       padding: 10px,10px,10px,10px;
-       border: 0px solid black;
-       margin-top: 40px;
-       margin-left: 150px;
-       margin-bottom: 40px;
-       width: 300px;
-      }
-    
-     
-      #box1 #box2{
-        position: relative;
-        width: 30%;
-        border: 0px solid black;
-        margin-left: 100px;
-        margin-bottom:auto;  
-        text-align: center;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      }
-    
-      #box1 #box3{
-        position: relative;
-        width: 30%;
-        border: 0px solid black;
-        margin-left: 100px;
-        margin-bottom:auto;  
-        text-align: center;
-        color: white;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      }
-    
-      #box1 #box4{
-        position: relative;
-        width: 30%;
-        border: 0px solid black;
-        margin-left: 100px;
-        margin-bottom:auto;  
       
-        text-align: center;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      }
