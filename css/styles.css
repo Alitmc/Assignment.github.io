@@ -441,14 +441,12 @@ body {
       margin: 0 auto 15px;
     }
   
-    .menu-item-photo {
-      margin-right: auto;
-    }
+ 
     .menu-item-tile .menu-item-price {
-      text-align: center;
+      text-align: left;
     }
     .menu-item-description {
-      text-align: center;;
+      text-align: left;
     }
     #box1 {
         float: left;
