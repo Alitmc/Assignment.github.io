@@ -129,12 +129,12 @@ body {
   #box6 {
     float: left;
     margin: 0 auto;
-    margin: 3em;
+    margin: 4em;
     background-color: #999999;
     padding: 10px, 10px, 10px, 10px;
     border: 0px solid black;
-    width: 25%;
-    height: 350px;
+    width: 90%;
+    height: 200px;
   }
 
   #box1 #box2 {
