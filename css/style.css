@@ -1,34 +1,61 @@
-body {
-    font-size: 16px;
-    color: #fff;
-    background-color: #5a0e30;
-    font-family: 'oxygen', sans-serif;
-}
-
-#header-nav {
-    margin: 0%;
-    background-color: #f6b319;
-    border-radius: 0;
-    border: 0;
-    font-size: 20px;
-}
 
 
-.navbar-toggle {
+  h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 175%;
+    text-align: center;
+  }
 
-    @media (min-width: 768px) {
-        display: block !important;
-        background-color: transparent;
-        border: 1px solid #333333;
-    }
+  #p1 {
+    padding: 10px,10px,10px,10px;
+    margin-bottom:auto; 
+    margin-left: 3%;
+    margin-top: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   
 
-    .icon-bar-always {
-        border: 1px solid #fff;
-        display: block;
-        border-radius: 1px;
-    }
+  #box1 {
+   float: left;
+   background-color: #999999; 
+   padding: 10px,10px,10px,10px;
+   border: 2px solid black;
+   margin-top: 40px;
+   margin-left: 20px;
+   margin-bottom: 40px;
+   width: 300px;
+  }
 
-    .icon-bar-always+.icon-bar-always {
-        margin-top: 4px;
-    }
-}
+  #box1 #box2{
+    position: relative;
+    width: 30%;
+    border: 2px solid black;
+    margin-left: 208px;
+    margin-bottom:auto;  
+    background: #D59898;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  #box1 #box3{
+    position: relative;
+    width: 30%;
+    border: 2px solid black;
+    margin-left: 208px;
+    margin-bottom:auto;  
+    background: #C14543;
+    text-align: center;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  #box1 #box4{
+    position: relative;
+    width: 30%;
+    border: 2px solid black;
+    margin-left: 208px;
+    margin-bottom:auto;  
+    background: #E5D198;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
