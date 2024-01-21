@@ -1,550 +1,679 @@
 body {
-    font-size: 16px;
-    color: #fff;
-    background-color: #61122f;
-    font-family: 'Oxygen', sans-serif;
-  }
-  
-  /** HEADER **/
-  #header-nav {
-    background-color: #f6b319;
-    border-radius: 0;
-    border: 0;
-  }
-  
-    
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p {
+  /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+
+.navbar-brand p span {
+  /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* END HEADER */
+
+
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+#menu-tile,
+#specials-tile,
+#map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#menu-tile:hover,
+#specials-tile:hover,
+#map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+
+#menu-tile span,
+#specials-tile span,
+#map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+/* END HOME PAGE */
+
+/* MENU CATEGORIES PAGE */
+.category-tile {
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title+div {
+  margin-bottom: 50px;
+}
+
+/* END MENU CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+
+.menu-item-tile hr {
+  width: 80%;
+}
+
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+
+
+.menu-item-description {
+  padding-right: 30px;
+}
+
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+
+/* END SINGLE CATEGORY PAGE */
+
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {
+
+
+
   .navbar-brand {
-    padding-top: 25px;
+    padding-top: 10px;
+    height: 80px;
   }
-  
-  .navbar-brand a:hover, .navbar-brand a:focus {
-    text-decoration: none;
+
+  .navbar-brand p {
+    /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
   }
-  .navbar-brand p { /* Kosher cert */
-    color: #000;
-    text-transform: uppercase;
-    font-size: .7em;
-    margin-top: 15px;
+
+  .navbar-brand p img {
+    /* Star-K */
+    height: 20px;
   }
-  .navbar-brand p span { /* Star-K */
-    vertical-align: middle;
+
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color: #61122f;
   }
-  
-  #nav-list {
-    margin-top: 10px;
+
+  #collapsable-nav a span {
+    /* Collapsed nav menu glyph */
+    font-size: 1em;
+
+    margin-right: 5px;
+    margin-left: 50px;
   }
-  #nav-list a {
-    color: #951C49;
+
+  #box1 {
+    float: left;
+    background-color: #999999;
+    padding: 10px, 10px, 10px, 10px;
+    border: 0px solid black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100;
+    height: 350px;
+  }
+
+  #box5 {
+    float: left;
+    background-color: #999999;
+    padding: 10px, 10px, 10px, 10px;
+    border: 0px solid black;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    width: 100;
+    height: 350px;
+  }
+
+  #box6 {
+    float: left;
+    background-color: #999999;
+    padding: 10px, 10px, 10px, 10px;
+    border: 0px solid black;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    width: 100;
+    height: 350px;
+  }
+
+
+  #box1 #box2 {
+    position: relative;
+    width: 30%;
+    border: 0px solid black;
+    margin-left: auto;
+    padding-right: 55%;
+    margin-bottom: auto;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  #nav-list a:hover {
-    background: #E7E7E7;
+
+  #box5 #box3 {
+    position: relative;
+    width: 30%;
+    border: 0px solid black;
+    margin-left: auto;
+    padding-right: 55%;
+    margin-bottom: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  #nav-list a span {
-    font-size: 1.8em;
+
+  #box6 #box4 {
+    position: relative;
+    width: 30%;
+    border: 0px solid black;
+    margin-left: auto;
+    padding-right: 55%;
+    margin-bottom: auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  
-  #phone {
-    margin-top: 5px;
+
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  #box1 {
+    float: left;
+    background-color: #999999;
+    padding: 10px, 10px, 10px, 10px;
+    border: 0px solid black;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    width: 300;
   }
-  #phone a { /* Phone number */
-    text-align: right;
-    padding-bottom: 0;
+
+  #box5 {
+    float: left;
+    background-color: #999999;
+    padding: 10px, 10px, 10px, 10px;
+    border: 0px solid black;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    width: 300;
   }
-  
-  
-  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #61122f;
+
+  #box6 {
+    float: left;
+    background-color: #999999;
+    padding: 10px, 10px, 10px, 10px;
+    border: 0px solid black;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    width: 300;
   }
-  .navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -30px;
+
+
+  #box1 #box2 {
+    position: relative;
+    width: 30%;
+    border: 0px solid black;
+    margin-left: auto;
+    padding-right: 55%;
+    margin-bottom: auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  /* END HEADER */
-  
- 
-  
-  /* HOME PAGE */
+
+  #box5 #box3 {
+    position: relative;
+    width: 30%;
+    border: 0px solid black;
+    margin-left: auto;
+    padding-right: 55%;
+    margin-bottom: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  #box6 #box4 {
+    position: relative;
+    width: 30%;
+    border: 0px solid black;
+    margin-left: auto;
+    padding-right: 55%;
+    margin-bottom: auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand p {
+    /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+
+  .navbar-brand p img {
+    /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color: #61122f;
+  }
+
+  #collapsable-nav a span {
+    /* Collapsed nav menu glyph */
+    font-size: 1em;
+
+    margin-right: 5px;
+    margin-left: 50px;
+  }
+
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #box1 {
+    float: left;
+    background-color: #999999;
+    padding: 10px, 10px, 10px, 10px;
+    border: 0px solid black;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    width: auto;
+  }
+
+  #box5 {
+    float: left;
+    background-color: #999999;
+    padding: 10px, 10px, 10px, 10px;
+    border: 0px solid black;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    width: auto;
+  }
+
+  #box6 {
+    float: left;
+    background-color: #999999;
+    padding: 10px, 10px, 10px, 10px;
+    border: 0px solid black;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    width: auto;
+  }
+
+
+  #box1 #box2 {
+    position: relative;
+    width: 30%;
+    border: 0px solid black;
+    margin-left: auto;
+    padding-right: 55%;
+    margin-bottom: auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  #box5 #box3 {
+    position: relative;
+    width: 30%;
+    border: 0px solid black;
+    margin-left: auto;
+    padding-right: 55%;
+    margin-bottom: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  #box6 #box4 {
+    position: relative;
+    width: 30%;
+    border: 0px solid black;
+    margin-left: auto;
+    padding-right: 55%;
+    margin-bottom: auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand p {
+    /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+
+  .navbar-brand p img {
+    /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color: #61122f;
+  }
+
+  #collapsable-nav a span {
+    /* Collapsed nav menu glyph */
+    font-size: 1em;
+
+    margin-right: 5px;
+    margin-left: 50px;
+  }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+  #box1 {
+    float: left;
+    background-color: #999999;
+    padding: 10px, 10px, 10px, 10px;
+    border: 0px solid black;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    width: auto;
+  }
+
+  #box5 {
+    float: left;
+    background-color: #999999;
+    padding: 10px, 10px, 10px, 10px;
+    border: 0px solid black;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    width: auto;
+  }
+
+  #box6 {
+    float: left;
+    background-color: #999999;
+    padding: 10px, 10px, 10px, 10px;
+    border: 0px solid black;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    width: auto;
+  }
+
+
+  #box1 #box2 {
+    position: relative;
+    width: 30%;
+    border: 0px solid black;
+    margin-left: auto;
+    padding-right: 55%;
+    margin-bottom: auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  #box5 #box3 {
+    position: relative;
+    width: 30%;
+    border: 0px solid black;
+    margin-left: auto;
+    padding-right: 55%;
+    margin-bottom: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  #box6 #box4 {
+    position: relative;
+    width: 30%;
+    border: 0px solid black;
+    margin-left: auto;
+    padding-right: 55%;
+    margin-bottom: auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand p {
+    /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+
+  .navbar-brand p img {
+    /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color: #61122f;
+  }
+
+  #collapsable-nav a span {
+    /* Collapsed nav menu glyph */
+    font-size: 1em;
+
+    margin-right: 5px;
+    margin-left: 50px;
+  }
+
+
+  /* End Header */
+
+
+  /* Home Page */
   .container .jumbotron {
-    box-shadow: 0 0 50px #3F0C1F;
-    border: 2px solid #3F0C1F;
+    margin-top: 30px;
+    padding: 0;
   }
-  
-  #menu-tile, #specials-tile, #map-tile {
-    height: 250px;
-    width: 100%;
-    margin-bottom: 15px;
-    position: relative;
-    border: 2px solid #3F0C1F;
-    overflow: hidden;
-  }
-  #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
-    box-shadow: 0 1px 5px 1px #cccccc;
-  }
-  #menu-tile {
-    background: url('../images/menu-tile.jpg') no-repeat;
-    background-position: center;
-  }
+
+  #menu-tile,
   #specials-tile {
-    background: url('../images/specials-tile.jpg') no-repeat;
-    background-position: center;
-  }
-  #menu-tile span, #specials-tile span, #map-tile span {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 1.6em;
-    text-transform: uppercase;
-    background-color: #000;
-    color: #fff;
-    opacity: .8;
-  }
-  /* END HOME PAGE */
-  
-  /* MENU CATEGORIES PAGE */
-  .category-tile { 
-    position: relative;
-    border: 2px solid #3F0C1F;
-    overflow: hidden;
-    width: 200px;
-    height: 200px;
+    width: 360px;
     margin: 0 auto 15px;
   }
-  .category-tile span {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    background-color: #000;
-    color: #fff;
-    opacity: .8;
-  }
-  .category-tile:hover {
-    box-shadow: 0 1px 5px 1px #cccccc;
-  }
-  
-  #menu-categories-title + div {
-    margin-bottom: 50px;
-  }
-  /* END MENU CATEGORIES PAGE */
-  
-  /* SINGLE CATEGORY PAGE */
-  .menu-item-tile {
-    margin-bottom: 25px;
-  }
-  .menu-item-tile hr {
-    width: 80%;
-  }
+
+
   .menu-item-tile .menu-item-price {
-    font-size: 1.1em;
-    text-align: right;
-    margin-top: -15px;
-    margin-right: -15px;
+    text-align: left;
   }
-  .menu-item-tile .menu-item-price span {
-    font-size: .6em;
-  }
-  .menu-item-photo {
-    position: relative;
-    border: 2px solid #3F0C1F; 
-    overflow: hidden;
-    padding: 0;
-    margin-right: -15px;
-    margin-left: auto;
-    margin-bottom: 20px;
-    max-width: 250px;
-  }
-  .menu-item-photo div {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 80px;
-    background-color: #557c3e;
-    text-align: center;
-  }
+
   .menu-item-description {
-    padding-right: 30px;
+    text-align: left;
   }
-  h3.menu-item-title {
-    margin: 0 0 10px;
-  }
-  .menu-item-details {
-    font-size: .9em;
-    font-style: italic;
-  }
-  /* END SINGLE CATEGORY PAGE */
-  
-  
-  /********** Large devices only **********/
-  @media (min-width: 1200px) {
-    #box1 {
-        float: left;
-        background-color: #999999; 
-        padding: 10px,10px,10px,10px;
-        border: 0px solid black;
-        margin-top: 40px;
-        margin-left: 150px;
-        margin-bottom: 40px;
-        width: 300px;
-       }
-     
-       #box5 {
-         float: left;
-         background-color: #999999; 
-         padding: 10px,10px,10px,10px;
-         border: 0px solid black;
-         margin-top: 40px;
-         margin-left: 150px;
-         margin-bottom: 40px;
-         width: 300px;
-        }
-     
-        #box6 {
-         float: left;
-         background-color: #999999; 
-         padding: 10px,10px,10px,10px;
-         border: 0px solid black;
-         margin-top: 40px;
-         margin-left: 150px;
-         margin-bottom: 40px;
-         width: 300px;
-        }
-      
-      
-       #box1 #box2{
-         position: relative;
-         width: 30%;
-         border: 0px solid black;
-         margin-left: 100px;
-         margin-bottom:auto;  
-         text-align: center;
-         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-     
-       #box5 #box3{
-         position: relative;
-         width: 30%;
-         border: 0px solid black;
-         margin-left: 100px;
-         margin-bottom:auto;  
-         text-align: center;
-         color: white;
-         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-     
-       #box6 #box4{
-         position: relative;
-         width: 30%;
-         border: 0px solid black;
-         margin-left: 100px;
-         margin-bottom:auto;  
-       
-         text-align: center;
-         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-  }
-  
-  /********** Medium devices only **********/
-  @media (min-width: 992px) and (max-width: 1199px) {
-    #box1 {
-        float: left;
-        background-color: #999999; 
-        padding: 10px,10px,10px,10px;
-        border: 0px solid black;
-        margin-top: 40px;
-        margin-left: 150px;
-        margin-bottom: 40px;
-        width: 300px;
-       }
-     
-       #box5 {
-         float: left;
-         background-color: #999999; 
-         padding: 10px,10px,10px,10px;
-         border: 0px solid black;
-         margin-top: 40px;
-         margin-left: 150px;
-         margin-bottom: 40px;
-         width: 300px;
-        }
-     
-        #box6 {
-         float: left;
-         background-color: #999999; 
-         padding: 10px,10px,10px,10px;
-         border: 0px solid black;
-         margin-top: 40px;
-         margin-left: 150px;
-         margin-bottom: 40px;
-         width: 750px;
-        }
-      
-      
-       #box1 #box2{
-         position: relative;
-         width: 30%;
-         border: 0px solid black;
-         margin-left: 100px;
-         margin-bottom:auto;  
-         text-align: center;
-         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-     
-       #box5 #box3{
-         position: relative;
-         width: 30%;
-         border: 0px solid black;
-         margin-left: 100px;
-         margin-bottom:auto;  
-         text-align: center;
-         color: white;
-         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-     
-       #box6 #box4{
-         position: relative;
-         width: 30%;
-         border: 0px solid black;
-         margin-left: 270px;
-         margin-bottom:auto;  
-         text-align: center;
-         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-  }
-  
-  /********** Small devices only **********/
-  @media (min-width: 768px) and (max-width: 991px) {
-    #box1 {
-        float: left;
-        background-color: #999999; 
-        padding: 10px,10px,10px,10px;
-        border: 0px solid black;
-        margin-top: 40px;
-        margin-left: 150px;
-        margin-right: 150px;
-        margin-bottom: 40px;
-        width:auto;
-       }
-     
-       #box5 {
-         float: left;
-         background-color: #999999; 
-         padding: 10px,10px,10px,10px;
-         border: 0px solid black;
-         margin-top: 40px;
-         margin-left: 150px;
-         margin-right: 150px;
-         margin-bottom: 40px;
-         width:auto;
-        }
-     
-        #box6 {
-         float: left;
-         background-color: #999999; 
-         padding: 10px,10px,10px,10px;
-         border: 0px solid black;
-         margin-top: 40px;
-         margin-left: 150px;
-         margin-right: 150px;
-         margin-bottom: 40px;
-         width:auto;
-        }
-      
-      
-       #box1 #box2{
-         position: relative;
-         width: 30%;
-         border: 0px solid black;
-         margin-left: auto;
-         padding-right:55%;
-         margin-bottom:auto;  
-         text-align: center;
-         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-     
-       #box5 #box3{
-         position: relative;
-         width: 30%;
-         border: 0px solid black;
-         margin-left: auto;
-         padding-right:55%;
-         margin-bottom:auto;  
-         text-align: center;
-         color: white;
-         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-     
-       #box6 #box4{
-         position: relative;
-         width: 30%;
-         border: 0px solid black;
-         margin-left: auto;
-         padding-right:55%;
-         margin-bottom:auto;  
-         text-align: center;
-         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-  }
-  
-  /********** Extra small devices only **********/
-  @media (max-width: 767px) {
-    /* Header */
-    .navbar-brand {
-      padding-top: 10px;
-      height: 80px;
-    }
-    
-    .navbar-brand p { /* Kosher cert */
-      font-size: .6em;
-      margin-top: 12px;
-    }
-    .navbar-brand p img { /* Star-K */
-      height: 20px;
-    }
-  
-    #collapsable-nav a { /* Collapsed nav menu text */
-      font-size: 1.2em;
-      color: #61122f;
-    }
-    #collapsable-nav a span { /* Collapsed nav menu glyph */
-      font-size: 1em;
-      
-      margin-right: 5px;
-      margin-left: 50px;
-    }
-  
-    #call-btn > a {
-      font-size: 1.5em;
-      display: block;
-      margin: 0 20px;
-      padding: 10px;
-      border: 2px solid #fff;
-      background-color: #f6b319;
-      color: #951c49;
-    }
-   
-    /* End Header */
-  
-    
-    /* Home Page */
-    .container .jumbotron {
-      margin-top: 30px;
-      padding: 0;
-    }
-    #menu-tile, #specials-tile {
-      width: 360px;
-      margin: 0 auto 15px;
-    }
-  
- 
-    .menu-item-tile .menu-item-price {
-      text-align: left;
-    }
-    .menu-item-description {
-      text-align: left;
-    }
-    #box1 {
-        float: left;
-        background-color: #999999; 
-        padding: 10px,10px,10px,10px;
-        border: 0px solid black;
-        margin-top: 40px;
-        margin-left: 70px;
-        margin-bottom: 40px;
-        width: 300px;
-       }
-     
-       #box5 {
-         float: left;
-         background-color: #999999; 
-         padding: 10px,10px,10px,10px;
-         border: 0px solid black;
-         margin-top: 40px;
-         margin-left: 70px;
-         margin-bottom: 40px;
-         width: 300px;
-        }
-     
-        #box6 {
-         float: left;
-         background-color: #999999; 
-         padding: 10px,10px,10px,10px;
-         border: 0px solid black;
-         margin-top: 40px;
-         margin-left: 70px;
-         margin-bottom: 40px;
-         width: 300px;
-        }
-      
-      
-       #box1 #box2{
-         position: relative;
-         width: 30%;
-         border: 0px solid black;
-         margin-left: 100px;
-         margin-bottom:auto;  
-         text-align: center;
-         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-     
-       #box5 #box3{
-         position: relative;
-         width: 30%;
-         border: 0px solid black;
-         margin-left: 100px;
-         margin-bottom:auto;  
-         text-align: center;
-         color: white;
-         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-     
-       #box6 #box4{
-         position: relative;
-         width: 30%;
-         border: 0px solid black;
-         margin-left: 100px;
-         margin-bottom:auto;  
-         text-align: center;
-         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-  }
-  
-  
-  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
- 
-    /* Home page */
-    #menu-tile, #specials-tile {
-      width: 280px;
-      margin: 0 auto 15px;
-    }
-  
-    .col-xxs-12 {
-      position: relative;
-      min-height: 1px;
-      padding-right: 15px;
-      padding-left: 15px;
-      float: left;
-      width: 100%;
-    }
-  
-    h1 {
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 175%;
-        text-align: center;
-      }
-    
-      #p1 {
-        padding: 10px,10px,10px,10px;
-        margin-bottom:auto; 
-        margin-left: 3%;
-        margin-top: 1%;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-       
-    
-      
+
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+/* Home page */
+#menu-tile,
+#specials-tile {
+  width: 280px;
+  margin: 0 auto 15px;
+}
+
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 175%;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 175%;
+  float: left;
+}
+
+
+#p1 {
+  padding: 10px, 10px, 10px, 10px;
+  margin-bottom: auto;
+  margin-left: 3%;
+  margin-top: 1%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
